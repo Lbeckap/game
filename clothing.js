@@ -1,62 +1,62 @@
 const clothing = {
     upper: {
         name: "",
-        weight: 0,
+        weight: null,
         description: "",
         category: "clothing",
         position: "", //to fit clothing to character?
         weatherRating: { //only for clothing
-            sun: 0,
-            rain: 0,
-            cold: 0,
+            sun: null,
+            rain: null,
+            cold: null,
         }
     },
     lower: {
         name: "",
-        weight: 0,
+        weight: null,
         description: "",
         category: "clothing",
         position: "", 
         weatherRating: { 
-            sun: 0,
-            rain: 0,
-            cold: 0,
+            sun: null,
+            rain: null,
+            cold: null,
         }
     },
     outer: {
         name: "",
-        weight: 0,
+        weight: null,
         description: "",
         category: "clothing",
         position: "", 
         weatherRating: { 
-            sun: 0,
-            rain: 0,
-            cold: 0,
+            sun: null,
+            rain: null,
+            cold: null,
         }
     },
     footwear: {
         name: "",
-        weight: 0,
+        weight: null,
         description: "",
         category: "clothing",
         position: "", 
         weatherRating: { 
-            sun: 0,
-            rain: 0,
-            cold: 0,
+            sun: null,
+            rain: null,
+            cold: null,
         }
     },
     headwear: {
         name: "",
-        weight: 0,
+        weight: null,
         description: "",
         category: "clothing",
         position: "", 
         weatherRating: { 
-            sun: 0,
-            rain: 0,
-            cold: 0,
+            sun: null,
+            rain: null,
+            cold: null,
         }
     },
 };

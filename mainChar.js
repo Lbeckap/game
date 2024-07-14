@@ -4,24 +4,24 @@ const bag = require("./bag.js");
 
 const mainCharacter = {
     healthStats: {
-        maxCarryWeight: 0, //can be increased with hard work
-        currentWeight: 0, //can only be increased at bonus enviornment
-        hunger: 0,
-        social: 0, //stays at 50% until first wander found
-        comfort: 0, //bad weather and improper clothing and shelter can effect this
-        cleanliness: 0, //at 50% unless very hard work or get a bonus with a bath
+        maxCarryWeight: null, //can be increased with hard work
+        currentWeight: null, //can only be increased at bonus enviornment
+        hunger: null,
+        social: null, //stays at 50% until first wander found
+        comfort: null, //bad weather and improper clothing and shelter can effect this
+        cleanliness: null, //at 50% unless very hard work or get a bonus with a bath
     },
     clothing: clothing,
     jewelry: jewelry,
     bag: bag,
     skills: {
-        building: 0,
-        foraging: 0,
-        fishing: 0,
-        crafting: 0,
-        hunting: 0,
-        communication: 0,
-        organization: 0,
+        building: null,
+        foraging: null,
+        fishing: null,
+        crafting: null,
+        hunting: null,
+        communication: null,
+        organization: null,
     },
     profile: {
         name: "",

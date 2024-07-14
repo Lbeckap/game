@@ -2,19 +2,19 @@ let enhancementType = ["happiness", "communication", "organization", "crafting"]
 
 const jewelry = {
     name: "",
-    weight: 0,
+    weight: null,
     description: "",
     category: "jewelry",
     position: "",
     isGift: true,
-    relationShipBonus: 0, //better quality builds relationships faster when given as gift
+    relationShipBonus: null, //better quality builds relationships faster when given as gift
     isEnhancer: true,
     enhancementType: enhancementType[0], //happiness - from enhancing looks
-    enhancementScore: 0,
+    enhancementScore: null,
     weatherRating: { //jewelry doesn't help against weather always all zeros. Would empty object or no weatherRating object be better?
-        sun: 0,
-        rain: 0,
-        cold: 0,
+        sun: null,
+        rain: null,
+        cold: null,
     }
 };
 
