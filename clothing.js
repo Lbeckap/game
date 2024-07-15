@@ -1,3 +1,5 @@
+//TODO: Implement a parent class for clothing. Add 'type' key to evalutate upper, lower, outer, footwear, headwear.
+
 const clothing = {
     upper: {
         name: "",

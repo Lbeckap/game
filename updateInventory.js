@@ -4,7 +4,7 @@ const inventory = {};
 
 inventory.item = createItem(clothing.upper); //assigning item to inventory object.
 
-function createItem(objectAcquired) { //create item (what does the mean exactly?)
+function createItem(objectAcquired) { //create item (what do I really want to happen here?)
     let newItem = {
         name: objectAcquired.name,
         weight: objectAcquired.weight,
